@@ -5,12 +5,6 @@
 #include <string>
 #include "Other.h"
 
-// W obenym wydaniu gra działa, lecz używa "zakazanego owocu" w postaci instrukcji goto, za co z góry przepraszam, 
-// ale z powodu licznych problemów i małej ilości czasu przez nie spowodowanymi, zarówno w kodzie jak i w życiu, main wygląda jak wygląda i wydaje mi się, 
-// że było to konieczne rozwiązanie by zapobiec ciągłemu uruchamianiu pliku .exe. 
-// Za restart miała docelowo odpowiadać funkcja tworząca wektory wskaźników i ustawiająca parametry obiektów na defaultowe, zależna od boola.
-// Jeżeli miałby Pan zastrzeżenia co do tego rozwiązania, mógłbym spróbować je zmienić.
-//
 
 bool returnb=false;
 int main() {
